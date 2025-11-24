@@ -1,8 +1,5 @@
 tasks = []   # each task will be a list: [title, priority, due_date, status]
-
-# -----------------------------
 # Add a new task
-# -----------------------------
 def add_task():
     print("\n--- Add New Task ---")
     title = input("Enter task title: ")
@@ -29,10 +26,7 @@ def view_tasks():
         print("Due Date :", tasks[i][2])
         print("Status   :", tasks[i][3])
     print()
-
-# -----------------------------
 # Mark task as completed
-# -
 def mark_completed():
     view_tasks()
     if len(tasks) == 0:
@@ -63,8 +57,7 @@ def sort_by_priority():
     high = []
     medium = []
     low = []
-
-    # separate tasks into three lists
+ # separate tasks into three lists
     for task in tasks:
         if task[1].lower() == "high":
             high.append(task)
@@ -117,6 +110,7 @@ def main():
 
 
 main()
+
 
 
 
