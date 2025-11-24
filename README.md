@@ -30,10 +30,13 @@ Technologies / Tools Used
 
 ---
 
- Steps to Install & Run the Project
+Steps to Install & Run the Project
+1.Install Python 3 on your system.
 
-
-
+2.Download or clone this repository.
+3.Open the project folder.
+4.Run the program using: python pytask_scheduler.py
+5.Use the on-screen menu to add, view, sort, or manage tasks.
 
 ---
 
